@@ -1,0 +1,13 @@
+prefix=/Users/nikhilbansal/Documents/projects/GenAI_Chatbots/Agentic/Celebrity Detector QnA/venv
+exec_prefix=/Users/nikhilbansal/Documents/projects/GenAI_Chatbots/Agentic/Celebrity Detector QnA/venv
+libdir=/Users/nikhilbansal/Documents/projects/GenAI_Chatbots/Agentic/Celebrity Detector QnA/venv/lib
+sharedlibdir=/Users/nikhilbansal/Documents/projects/GenAI_Chatbots/Agentic/Celebrity Detector QnA/venv/lib
+includedir=/Users/nikhilbansal/Documents/projects/GenAI_Chatbots/Agentic/Celebrity Detector QnA/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

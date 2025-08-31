@@ -1,0 +1,80 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# Conda environment
+*.conda
+*.ipynb_checkpoints
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs & outputs
+*.log
+logs/
+*.out
+*.err
+
+# Data files
+data/raw/
+data/interim/
+data/processed/
+data/external/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+
+# Model artifacts
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# Notebooks temporary
+.ipynb_checkpoints
+
+# Build & distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Docker
+*.pid
+*.tar
+*.sock
+
+# Chroma DB (vector DB)
+chroma_db/
+
+# Config / Secrets
+.env
+*.env
+config/*.yaml
+config/*.json
+config/*.ini
+
+# Cache
+.cache/

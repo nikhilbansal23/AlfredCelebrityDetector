@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: Celebrity-Detector-and-QA
+Version: 0.1
+Author: Nikhil Bansal
+Requires-Dist: Flask
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Dynamic: author
+Dynamic: requires-dist
